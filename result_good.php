@@ -44,7 +44,7 @@ require_once('header.php');
     </style>
 </head>
 <body>
-
+<audio id="bgm" src="./images/Honey.mp3" loop=1 autoplay=1></audio>
 <div class="start main-stage">
     <div class="button"></div>
 </div>

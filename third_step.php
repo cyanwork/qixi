@@ -48,6 +48,7 @@ require_once('header.php');
 <div class="start main-stage">
     <div class="button"></div>
 </div>
+<audio id="bgm" src="./images/Honey.mp3" loop=1 autoplay=1></audio>
 <script type="application/javascript">
 
     $(".button").on('click touchend', function(e){

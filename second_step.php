@@ -145,6 +145,7 @@ require_once('header.php');
     </form>
 
 </div>
+<audio id="bgm" src="./images/Honey.mp3" loop=1 autoplay=1></audio>
 <script type="application/javascript">
 
     //    $(".submit").on('click touchend', function(e){
