@@ -127,7 +127,7 @@ require_once('header.php');
             <span class="form_text subtitle">本活动仅限广东省、广西省<br>&nbsp;&nbsp;、福建省、海南省内的网友参加</span>
             <br>
             <div class="select_area">
-                <span class="form_text">所在城市</span>
+                <span class="form_text">所在省份</span>
                 <select name="sf" class="form_select">
                     <option value="gd" selected>广东省</option>
                     <option value="gx">广西省</option>
