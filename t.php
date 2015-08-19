@@ -78,6 +78,7 @@
         form .form_text{
             height: 70px;
             line-height: 70px;
+            padding-top: 10px;
         }
         form .form_input{
             width: 400px;
