@@ -77,8 +77,10 @@ echo "<br>3";
 
     mysql_select_db("qixi", $con);
 echo "<br>4";
-    mysql_query("INSERT INTO users (city,name,phone)
-    VALUES ($city, $name, $phone)");
+//    mysql_query("INSERT INTO users (city,name,phone)
+//    VALUES ($city, $name, $phone)");
+
+mysql_query("insert into users (city,name,phone) values ('$city','$name','$phone')");
 echo "<br>5";
     mysql_close($con);
 echo "<br>6";
