@@ -63,8 +63,8 @@
         }
         form .form_select{
             font-size: 40px;
-            width: 300px;
-            height: 100px;
+            width: 515px;
+            height: 112px;
             border: none;
             background: url("images/form_select.png") no-repeat;
         }
