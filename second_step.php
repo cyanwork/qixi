@@ -97,10 +97,13 @@
             height: 50px;
         }
         form .form_input{
-            line-height: 50px;
-            height: 50px;
+            line-height: 70px;
+            height: 70px;
         }
-        form .submit{ display: block; width: 400px; height: 100px; background: url("images/submit_btn.png") no-repeat; text-align: center;border: 0;border-radius: 4px;}
+        form .submit{
+            margin-top: 30px;
+            text-align: center;
+            display: block; width: 400px; height: 100px; background: url("images/submit_btn.png") no-repeat; text-align: center;border: 0;border-radius: 4px;}
 
         form .form_select{
             font-size: 40px;
@@ -131,8 +134,8 @@
                 </select>
             </div>
             <div class="input_area">
-                <span class="form_text item">姓名</span><input class="form_input" type="text" name="name"/><br>
-                <span class="form_text item">电话</span><input class="form_input" type="number" name="phone"/><br>
+                <span class="form_text item">姓名</span>&nbsp;&nbsp;<input class="form_input" type="text" name="name"/><br>
+                <span class="form_text item">电话</span>&nbsp;&nbsp;<input class="form_input" type="number" name="phone"/><br>
                 <input type="submit" src="images/form_input.png" value="" class="submit"/><br>
             </div>
 
