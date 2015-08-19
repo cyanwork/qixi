@@ -43,7 +43,7 @@
             width: 100%;
             position: absolute;
             top: 50px;
-            margin:  0 auto;
+            margin-left: 80px;
             background: url("images/step2_form.png") no-repeat;
         }
         form input{
