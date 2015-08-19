@@ -39,13 +39,13 @@
         .button{
             position: absolute;
             text-align: center;
-            top: 90%;
+            bottom: 50px;
             left: 50%;
             -webkit-transform: translate(-50%, -50%);
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-            width: 150px;
-            height: 100px;
+            width: 250px;
+            height: 150px;
             background: saddlebrown;
         }
 
