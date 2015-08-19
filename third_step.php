@@ -19,7 +19,7 @@
             right: 0;
             bottom: 0;
             left: 0;
-            background: url("images/step3.png") no-repeat center center #333333;
+            background: url("images/step3.jpg") no-repeat center center #333333;
             background-size: cover;
             opacity: 1;
             -webkit-transition: all 0.4s;
