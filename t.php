@@ -120,7 +120,7 @@
             left: 150px;
             width: 604px;
             height: 81px;
-            background: url("images/submit_btn.png") no-repeat; text-align: center;border: 0;border-radius: 4px;
+            background: url("images/submit_btn2.png") no-repeat; text-align: center;border: 0;border-radius: 4px;
         }
     </style>
 </head>
