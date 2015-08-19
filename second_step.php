@@ -57,9 +57,9 @@
         form .form_title{
             color: #757172;
             position: absolute;
-            top: 20px;
+            top: 40px;
             font-size: 50px;
-            margin-left: 20px;
+            margin-left: 40px;
         }
 
         form .subtitle{
@@ -90,7 +90,7 @@
         }
         form .form_text{
             color: #231815;
-            margin-left: 20px;
+            margin-left: 40px;
             margin-top: 5px;
         }
         form .item{
@@ -106,7 +106,7 @@
             margin-top: 30px;
             margin-left: 200px;
             margin-right: 200px;
-            display: block; width: 100%; height: 200px; background: url("images/submit_btn.png") no-repeat; text-align: center;border: 0;border-radius: 4px;}
+            display: block; width:400px; height: 200px; background: url("images/submit_btn.png") no-repeat; text-align: center;border: 0;border-radius: 4px;}
 
         form .form_select{
             font-size: 40px;

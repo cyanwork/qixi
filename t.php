@@ -1,10 +1,12 @@
 <html>
 <head>
+    <script src="scripts/backstretch.min.js"/>
+    <script type="application/javascript">
+        $("body").backstretch("/images/step2.png");
+    </script>
     <style type="text/css">
         
-        body{
-            background: url("images/step2.png") no-repeat 100% 100%;
-        }
+
     </style>
 </head>
 <body>
