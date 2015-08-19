@@ -44,7 +44,7 @@
             /*background: url("images/submit.png") no-repeat;*/
         }
         form {
-            height: 60%;
+            height: 70%;
             width: 100%;
             position: absolute;
             top: 30px;
@@ -116,31 +116,31 @@
     <form action="third_step.php" method="post">
         <span class="form_title">登记信息进行抽奖</span><br>
         <div class="form_line" ><br>
-            <span class="form_text subtitle">本活动仅限广东省、广西省、福建省、海南省内的网友参加</span>
-            <br>
-            <div class="select_area">
-                <span class="form_text">所在城市</span>
-                <select name="sf" class="form_select">
-                    <option value="gd" selected>广东省</option>
-                    <option value="gx">广西省</option>
-                    <option value="fj">福建省</option>
-                    <option value="hn">海南省</option>
-                </select>
-            </div>
+        <span class="form_text subtitle">本活动仅限广东省、广西省、福建省、海南省内的网友参加</span>
+        <br>
+        <div class="select_area">
+            <span class="form_text">所在城市</span>
+            <select name="sf" class="form_select">
+                <option value="gd" selected>广东省</option>
+                <option value="gx">广西省</option>
+                <option value="fj">福建省</option>
+                <option value="hn">海南省</option>
+            </select>
+        </div>
 
-            <span class="form_text item">姓名</span><input class="form_input" type="text" name="name"/><br>
-            <span class="form_text item">电话</span><input class="form_input" type="number" name="phone"/><br>
-            <input type="submit" src="images/form_input.png" value="" class="submit"/><br>
+        <span class="form_text item">姓名</span><input class="form_input" type="text" name="name"/><br>
+        <span class="form_text item">电话</span><input class="form_input" type="number" name="phone"/><br>
+        <input type="submit" src="images/form_input.png" value="" class="submit"/><br>
     </form>
 
 </div>
 <script type="application/javascript">
 
-    //    $(".submit").on('click touchend', function(e){
-    //        e.preventDefault();
-    //        var myDate = new Date();
-    //        location.href="third_step.php?from=index&timestamp=" + myDate.getTime();
-    //    });
+//    $(".submit").on('click touchend', function(e){
+//        e.preventDefault();
+//        var myDate = new Date();
+//        location.href="third_step.php?from=index&timestamp=" + myDate.getTime();
+//    });
 
 </script>
 </body>
