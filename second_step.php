@@ -100,7 +100,7 @@
             line-height: 50px;
             height: 50px;
         }
-        form .submit{ display: block; width: 60%; height: 151px; background: url("images/submit_btn.png"); text-align: center;border: 0;border-radius: 4px;}
+        form .submit{ display: block; width: 400px; height: 100px; background: url("images/submit_btn.png") no-repeat; text-align: center;border: 0;border-radius: 4px;}
 
         form .form_select{
             font-size: 40px;
