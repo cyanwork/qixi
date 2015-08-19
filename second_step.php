@@ -88,7 +88,7 @@
         }
         form .form_text{
             color: #231815;
-            font-size: 22px;
+            font-size: 50px;
             margin-left: 20px;
             margin-top: 5px;
         }
