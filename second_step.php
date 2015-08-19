@@ -37,12 +37,7 @@
             height: 150px;
             background: transparent;
         }
-        form .submit{
-            /*width: auto;*/
-            /*height: auto;*/
 
-            /*background: url("images/submit.png") no-repeat;*/
-        }
         form {
             height: 60%;
             width: 100%;
@@ -75,6 +70,13 @@
         form .select_area{
             position: absolute;
             top: 170px;
+            font-size: 50px;
+            margin-left: 20px;
+        }
+
+        form .input_area{
+            position: absolute;
+            top: 370px;
             font-size: 50px;
             margin-left: 20px;
         }
@@ -127,10 +129,13 @@
                     <option value="hn">海南省</option>
                 </select>
             </div>
+            <div class="input_area">
+                <span class="form_text item">姓名</span><input class="form_input" type="text" name="name"/><br>
+                <span class="form_text item">电话</span><input class="form_input" type="number" name="phone"/><br>
+                <input type="submit" src="images/form_input.png" value="" class="submit"/><br>
+            </div>
 
-            <span class="form_text item">姓名</span><input class="form_input" type="text" name="name"/><br>
-            <span class="form_text item">电话</span><input class="form_input" type="number" name="phone"/><br>
-            <input type="submit" src="images/form_input.png" value="" class="submit"/><br>
+
     </form>
 
 </div>
