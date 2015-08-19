@@ -82,7 +82,7 @@
         }
         form .form_input1{
             position: absolute;
-            left: 100px;
+            left: 130px;
             width: 400px;
             line-height: 70px;
             height: 70px;
@@ -91,7 +91,7 @@
 
         form .form_input2{
             position: absolute;
-            left: 100px;
+            left: 130px;
             top: 100px;
             width: 400px;
             line-height: 70px;
@@ -101,7 +101,11 @@
 
         form .form_text1{
             position: absolute;
-            top: 20px;
+            top: 15px;
+        }
+        form .form_text1{
+            position: absolute;
+            top: 115px;
         }
 
         form .shen{
