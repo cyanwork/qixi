@@ -51,18 +51,28 @@
             top: 170px;
             left: 50px;
             line-height: 60px;
-            font-size: 50px;
+            font-size: 40px;
             color: #757172;
         }
 
         form .select_area{
             position: absolute;
-            top: 10000px;;
+            top: 470px;
+            left: 50px;
+            font-size: 50px;
+        }
+        form .form_select{
+            font-size: 40px;
+            width: 300px;
+            height: 100px;
+            border: none;
+            background: url("images/form_select.png") no-repeat;
         }
 
         form .input_area{
             position: absolute;
             top: 1000px;
+
         }
 
         form .shen{
@@ -80,9 +90,7 @@
         <span class="form_title">登记信息进行抽奖</span><br>
 
         <div class="subtitle">
-            本活动仅限<br>&nbsp;&nbsp;&nbsp;&nbsp;
-            <span class="shen">广东省&nbsp;&nbsp;&nbsp;&nbsp;广西省<br>&nbsp;&nbsp;&nbsp;&nbsp;福建省&nbsp;&nbsp;&nbsp;&nbsp;海南省<br></span>
-            内的网友参加
+            本活动仅限<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="shen">广东省&nbsp;&nbsp;&nbsp;&nbsp;广西省<br>&nbsp;&nbsp;&nbsp;&nbsp;福建省&nbsp;&nbsp;&nbsp;&nbsp;海南省<br></span>内的网友参加
         </div>
 
 
