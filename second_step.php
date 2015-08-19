@@ -105,7 +105,7 @@ require_once('header.php');
         form .submit{
             margin-top: 30px;
             margin-left: 200px;
-            display: block; width: 400px; height: 100px; background: url("images/submit_btn.png") no-repeat; text-align: center;border: 0;border-radius: 4px;}
+            display: block; width: 700px; height: 200px; background: url("images/submit_btn.png") no-repeat; text-align: center;border: 0;border-radius: 4px;}
 
         form .form_select{
             font-size: 40px;
