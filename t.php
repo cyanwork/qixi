@@ -71,7 +71,9 @@
 
         form .input_area{
             position: absolute;
-            top: 1000px;
+            top: 570px;
+            left: 50px;
+            font-size: 50px;
 
         }
 
