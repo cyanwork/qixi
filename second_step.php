@@ -90,6 +90,7 @@
         }
         form .form_text{
             color: #231815;
+            text-align: center;
             margin-left: 40px;
             margin-top: 15px;
         }
