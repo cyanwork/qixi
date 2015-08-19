@@ -47,7 +47,7 @@
 </div>
 <script type="application/javascript">
 
-    $(".button").on('click touchend', function(e){
+    $("body").on('click touchend', function(e){
         e.preventDefault();
         var myDate = new Date();
         location.href="result_good.php?from=index&timestamp=" + myDate.getTime();
