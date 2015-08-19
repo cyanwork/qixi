@@ -33,8 +33,8 @@
             width: 90%;
             height: 90%;
             position: absolute;
-            top: 50px;
-            left: 100px;
+            top: 150px;
+            left: 140px;
             background: url("images/step2_form.png") no-repeat;
         }
 
