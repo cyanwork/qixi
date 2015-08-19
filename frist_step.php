@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Step1</title>
+    <title>准备抽奖</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script src="scripts/main.js"></script>
     <style type="text/css">

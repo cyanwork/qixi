@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Step2</title>
+    <title>填写信息</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script src="scripts/main.js"></script>
     <style type="text/css">
