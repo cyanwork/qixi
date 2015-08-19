@@ -37,6 +37,52 @@
             height: 150px;
             background: transparent;
         }
+        form .submit{
+            /*width: auto;*/
+            /*height: auto;*/
+
+            /*background: url("images/submit.png") no-repeat;*/
+        }
+        form {
+            height: 70%;
+            width: 100%;
+            position: absolute;
+            top: 30px;
+            margin-left: 50px;
+            margin-right: 50px;
+            background: url("images/step2_form.png") no-repeat;
+        }
+        form input{
+            width: auto;
+            height: auto;
+            background: url("images/form_input.png") no-repeat;
+        }
+        form .form_title{
+            color: #757172;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-left: 20px;
+            padding-top: 30px;
+        }
+        form .form_line{
+            height: 2px;
+            width: 100%;
+        }
+        form .form_text{
+            color: #231815;
+            font-size: 22px;
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+        form .item{
+            line-height: 50px;
+            height: 50px;
+        }
+        form .form_input{
+            line-height: 50px;
+            height: 50px;
+        }
+        form .submit{ display: block; width: 60%; height: 351px; background: url("images/submit.png"); text-align: center;border: 0;border-radius: 4px;}
 
     </style>
 </head>
@@ -44,13 +90,30 @@
 
 <div class="start main-stage">
     <div class="button"></div>
+
+    <form action="server/qixi.php" method="post">
+        <span class="form_title">登记信息进行抽奖</span><br>
+        <div class="form_line" ><br>
+        <span class="form_text">本活动仅限广东省、广西省、福建省、海南省内的网友参加</span>
+        <br>
+            <span class="form_text">所在城市</span><select name="sf">
+            <option value="gd" selected>广东省</option>
+            <option value="gx">广西省</option>
+            <option value="fj">福建省</option>
+            <option value="hn">海南省</option>
+        </select><br>
+        <span class="form_text item">姓名</span><input class="form_input" type="text" name="name"/><br>
+        <span class="form_text item">电话</span><input class="form_input" type="number" name="phone"/><br>
+        <input type="submit" src="images/form_input.png" value="" class="submit"/><br>
+    </form>
+
 </div>
 <script type="application/javascript">
 
     $("body").on('click touchend', function(e){
         e.preventDefault();
         var myDate = new Date();
-        location.href="third_step.php?from=index&timestamp=" + myDate.getTime();
+//        location.href="third_step.php?from=index&timestamp=" + myDate.getTime();
     });
 
 </script>
