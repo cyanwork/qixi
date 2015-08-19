@@ -3,8 +3,7 @@
     <title>七夕抽奖活动</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta content="就是这样吗？">
-    <script type="application/javascript">
-        <script>
+    <script>
         var imgUrl = 'http://topic.xcar.com.cn/201403/ad_q3/pic/banner.jpg';
         var lineLink = 'http://topic.xcar.com.cn/201403/ad_q3/index.php';
         var descContent = "http://topic.xcar.com.cn/201403/ad_q3/index.php";
