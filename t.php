@@ -3,7 +3,7 @@
     <style type="text/css">
         
         body{
-            background: url("images/step2.jpg");
+            background: url("images/step2.png") no-repeat;
         }
     </style>
 </head>
