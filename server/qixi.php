@@ -34,16 +34,16 @@ if(isset($phone)){
         if($rand == 9){
             mysql_query("insert into zhongjiang (zhong) values ('$phone')");
             mysql_close($con);
-            echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='../result_good.php'</SCRIPT>";
+            echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='../result_good.php?from=index&timestamp=2439995105204'</SCRIPT>";
         }else{
             mysql_close($con);
-            echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='../result_bad.php'</SCRIPT>";
+            echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='../result_bad.php?from=index&timestamp=2439995105204'</SCRIPT>";
         }
 
     }else{
         mysql_close($con);
 //        echo "<script>location.href='result_bad.php'";
-        echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='../result_bad.php'</SCRIPT>";
+        echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='../result_bad.php?from=index&timestamp=2439995105204'</SCRIPT>";
     }
 
 //echo "<br>5";
