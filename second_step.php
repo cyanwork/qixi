@@ -42,9 +42,8 @@
             height: 60%;
             width: 100%;
             position: absolute;
-            top: 30px;
-            margin-left: 50px;
-            margin-right: 50px;
+            top: 50px;
+            margin:  0 auto;
             background: url("images/step2_form.png") no-repeat;
         }
         form input{
