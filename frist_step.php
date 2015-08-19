@@ -22,7 +22,7 @@
             right: 0;
             bottom: 0;
             left: 0;
-            background: url("images/step11.png") no-repeat center center #333333;
+            background: url("images/step111.png") no-repeat center center #333333;
             background-size: cover;
             opacity: 1;
             -webkit-transition: all 0.4s;
@@ -57,5 +57,6 @@
     });
 
 </script>
+<audio id="bgm" src="./images/Honey.mp3" loop=1 autoplay=1></audio>
 </body>
 </html>

@@ -42,7 +42,7 @@ require_once('header.php');
         }
 
         form {
-            height: 700px;
+            height: 900px;
             width: 100%;
             position: absolute;
             top: 50px;
@@ -64,21 +64,21 @@ require_once('header.php');
 
         form .subtitle{
             position: absolute;
-            top: 70px;
+            top: 90px;
             font-size: 40px;
             margin-left: 20px;
         }
 
         form .select_area{
             position: absolute;
-            top: 200px;
+            top: 220px;
             font-size: 50px;
             margin-left: 20px;
         }
 
         form .input_area{
             position: absolute;
-            top: 370px;
+            top: 390px;
             font-size: 50px;
             margin-left: 20px;
         }

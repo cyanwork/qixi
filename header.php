@@ -20,3 +20,4 @@ if(!isset($from) || !isset($timestamp)){
         header('Location:'.$url);
     }
 }
+
