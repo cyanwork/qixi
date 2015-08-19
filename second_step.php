@@ -69,7 +69,7 @@
 
         form .select_area{
             position: absolute;
-            top: 170px;
+            top: 200px;
             font-size: 50px;
             margin-left: 20px;
         }
@@ -100,7 +100,7 @@
             line-height: 50px;
             height: 50px;
         }
-        form .submit{ display: block; width: 60%; height: 151px; background: url("images/submit.png"); text-align: center;border: 0;border-radius: 4px;}
+        form .submit{ display: block; width: 60%; height: 151px; background: url("images/submit_btn.png"); text-align: center;border: 0;border-radius: 4px;}
 
         form .form_select{
             font-size: 40px;
@@ -119,7 +119,7 @@
     <form action="third_step.php" method="post">
         <span class="form_title">登记信息进行抽奖</span><br>
         <div class="form_line" ><br>
-            <span class="form_text subtitle">本活动仅限广东省、广西省、福建省、海南省内的网友参加</span>
+            <span class="form_text subtitle">本活动仅限广东省、广西省<br>&nbsp;&nbsp;、福建省、海南省内的网友参加</span>
             <br>
             <div class="select_area">
                 <span class="form_text">所在城市</span>
