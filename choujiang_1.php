@@ -37,15 +37,27 @@
             transition: all 0.4s;
         }
 
+        .button{
+            width: 50%;
+            height: 50px;
+            background: peachpuff;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
     </style>
 </head>
 <body>
 
 <div class="start main-stage">
+    <div class="button">
+
+    </div>
     </div>
 <script type="application/javascript">
 
-    $(".start").on('click touchend', function(e){
+    $(".button").on('click touchend', function(e){
         e.preventDefault();
         var myDate = new Date();
         location.href="choujiang_2.php?from=index&timestamp=" + myDate.getTime();
