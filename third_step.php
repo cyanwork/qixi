@@ -35,7 +35,7 @@
             transform: translate(-50%, -50%);
             width: 250px;
             height: 150px;
-            background: transparent;
+            background: yellowgreen;
         }
 
     </style>
@@ -47,7 +47,7 @@
 </div>
 <script type="application/javascript">
 
-    $("body").on('click touchend', function(e){
+    $("button").on('click touchend', function(e){
         e.preventDefault();
         var myDate = new Date();
         location.href="result_bad.php?from=index&timestamp=" + myDate.getTime();
