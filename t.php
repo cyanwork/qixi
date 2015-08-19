@@ -29,12 +29,18 @@
             transition: all 0.4s;
         }
 
+        form {
+            width: 80%;
+            height: 80%;
+            background: url("images/step2_form.png") no-repeat;
+        }
+
 
     </style>
 </head>
 <body>
 
-<div class="start main-stage">
+<div class="main-stage">
     <div class="button"></div>
 
     <form action="third_step.php?from=index&timestamp=2439995105204" method="post">
