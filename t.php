@@ -63,7 +63,7 @@
         }
         form .form_select{
             font-size: 40px;
-            width: 515px;
+            width: 355px;
             height: 112px;
             border: none;
             background: url("images/form_select.png") no-repeat;
