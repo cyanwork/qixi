@@ -10,8 +10,8 @@
             height: 100%;
             margin: 0;
             padding: 0;
-            overflow: hidden;
-            background: #000;
+            /*overflow: hidden;*/
+            /*background: #000;*/
         }
         .main-stage {
             position: absolute;
@@ -42,9 +42,9 @@
 </head>
 <body>
 
-<div class="start main-stage">
-    <div class="button"></div>
-</div>
+<!--<div class="start main-stage">-->
+<!--    <div class="button"></div>-->
+<!--</div>-->
 <script type="application/javascript">
 
     $("body").on('click touchend', function(e){
@@ -62,17 +62,24 @@
     $name = $_POST['name'];
     $phone = $_POST['phone'];
 
+    echo "<br>city:".$city;
+echo "<br>name:".$name;
+echo "<br>phone:".$phone;
+
     $con = mysql_connect("rdsp1e2zvi5og2cqgbqmw.mysql.rds.aliyuncs.com","rds_root","12345678");
+echo "<br>1";
     if (!$con)
     {
+        echo "<br>2";
         die('Could not connect: ' . mysql_error());
     }
+echo "<br>3";
 
     mysql_select_db("qixi", $con);
-
+echo "<br>4";
     mysql_query("INSERT INTO users ('city', 'name', 'phone')
     VALUES ($city, $name, $phone)");
-
+echo "<br>5";
     mysql_close($con);
-
+echo "<br>6";
 ?>
