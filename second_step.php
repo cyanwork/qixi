@@ -59,7 +59,7 @@
         }
         form .form_title{
             color: #757172;
-            font-size: 20px;
+            font-size: 50px;
             margin-top: 30px;
             margin-left: 20px;
             padding-top: 30px;
@@ -85,6 +85,7 @@
         form .submit{ display: block; width: 60%; height: 151px; background: url("images/submit.png"); text-align: center;border: 0;border-radius: 4px;}
 
         form .form_select{
+            font-size: 40px;
             width: 300px;
             height: 200px;
             background: url("images/form_select.png") no-repeat;
