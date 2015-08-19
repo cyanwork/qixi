@@ -103,9 +103,9 @@
             position: absolute;
             top: 15px;
         }
-        form .form_text1{
+        form .form_text2{
             position: absolute;
-            top: 115px;
+            top: 100px;
         }
 
         form .shen{
