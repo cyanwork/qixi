@@ -75,7 +75,7 @@
             left: 50px;
             font-size: 50px;
         }
-        form input{
+        form .form_input{
             background: url("images/form_input.png") no-repeat;
         }
 
