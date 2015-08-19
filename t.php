@@ -14,7 +14,7 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background: #000;
+            background: #757172;
         }
         .main-stage {
             position: absolute;
@@ -114,7 +114,14 @@
             color: crimson;
         }
 
-
+        form .submit{
+            position: absolute;
+            top: 250px;
+            left: 130px;
+            width: 421px;
+            height: 84px;
+            background: url("images/submit_btn2.png") no-repeat; text-align: center;border: 0;border-radius: 4px;
+        }
     </style>
 </head>
 <body>
