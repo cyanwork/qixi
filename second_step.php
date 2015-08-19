@@ -46,7 +46,7 @@
             width: 100%;
             position: absolute;
             top: 50px;
-            margin-left: 80px;
+            margin-left: 100px;
             background: url("images/step2_form.png") no-repeat;
         }
         form input{
@@ -91,7 +91,7 @@
         form .form_text{
             color: #231815;
             margin-left: 40px;
-            margin-top: 5px;
+            margin-top: 15px;
         }
         form .item{
             line-height: 70px;
