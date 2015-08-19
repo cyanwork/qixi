@@ -102,9 +102,11 @@
         form .form_text1{
             position: absolute;
             top: 15px;
+            width: 120px;
         }
         form .form_text2{
             position: absolute;
+            width: 120px;
             top: 100px;
         }
 
