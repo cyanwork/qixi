@@ -41,9 +41,8 @@
 </head>
 <body>
 
-<img class="start main-stage">
-
-    </img>
+<div class="start main-stage">
+    </div>
 <script type="application/javascript">
 
     $(".start").on('click touchend', function(e){
