@@ -2616,6 +2616,20 @@ loadImages([
             opacity:1
         },
         {
+            rotation: 10,
+            scale:0.9,
+            x:-10,
+            y:0,
+            opacity:1
+        },
+        {
+            rotation: 10,
+            scale:0.9,
+            x:-10,
+            y:0,
+            opacity:1
+        },
+        {
             rotation: 0,
             scale:1,
             x:0,
@@ -2672,7 +2686,7 @@ loadImages([
     var currentIndex = 0;
 
     function changeStage(type){
-        if(currentIndex>=6)return;
+        if(currentIndex>=8)return;
         var base = {
             'swipeleft':{
                 x:-300
@@ -2785,8 +2799,12 @@ loadImages([
         }
     });
 
-
-
+    //go_start
+    $(".go_start").on('click touchend', function(e){
+        e.preventDefault();
+        var myDate = new Date();
+        location.href="choujiang_1.php?from=index&timestamp=" + myDate.getTime();
+    });
 
 
 
