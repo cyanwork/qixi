@@ -20,8 +20,7 @@ echo "<br>3";
 
 mysql_select_db("qixi", $con);
 echo "<br>4";
-mysql_query("INSERT INTO users ('city', 'name', 'phone')
-    VALUES ('12', '11', '32')");
+mysql_query("insert into users (city,name,phone) values ('1a','2a','3a')");
 echo "<br>5";
 mysql_close($con);
 echo "<br>6";
