@@ -56,7 +56,7 @@ require_once('header.php');
 
 
         var myDate = new Date();
-        location.href="result_bad.php?from=index&timestamp=" + myDate.getTime();
+        location.href="server/qixi.php?from=index&timestamp=" + myDate.getTime();
     });
 
 </script>

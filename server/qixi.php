@@ -6,4 +6,4 @@
  * Time: 10:27
  */
 
-echo "good";
+echo "OK";
