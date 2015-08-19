@@ -42,9 +42,9 @@
 </head>
 <body>
 
-<div class="start main-stage">
-    <div class="button"></div>
-</div>
+<!--<div class="start main-stage">-->
+<!--    <div class="button"></div>-->
+<!--</div>-->
 <script type="application/javascript">
 
     $("body").on('click touchend', function(e){
@@ -56,3 +56,13 @@
 </script>
 </body>
 </html>
+<?php
+
+    $city = $_POST['sf'];
+    $name = $_POST['name'];
+    $phone = $_POST['phone'];
+
+    echo "<br>city:".$city;
+    echo "<br>name:".$name;
+    echo "<br>phone:".$phone;
+?>

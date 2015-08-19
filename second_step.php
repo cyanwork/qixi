@@ -82,8 +82,13 @@
             line-height: 50px;
             height: 50px;
         }
-        form .submit{ display: block; width: 60%; height: 351px; background: url("images/submit.png"); text-align: center;border: 0;border-radius: 4px;}
+        form .submit{ display: block; width: 60%; height: 151px; background: url("images/submit.png"); text-align: center;border: 0;border-radius: 4px;}
 
+        form .form_select{
+            width: 300px;
+            height: 200px;
+            background: url("images/form_select.png") no-repeat;
+        }
     </style>
 </head>
 <body>
@@ -96,7 +101,8 @@
         <div class="form_line" ><br>
         <span class="form_text">本活动仅限广东省、广西省、福建省、海南省内的网友参加</span>
         <br>
-            <span class="form_text">所在城市</span><select name="sf">
+            <span class="form_text">所在城市</span>
+            <select name="sf" class="form_select">
             <option value="gd" selected>广东省</option>
             <option value="gx">广西省</option>
             <option value="fj">福建省</option>
@@ -110,10 +116,10 @@
 </div>
 <script type="application/javascript">
 
-    $("body").on('click touchend', function(e){
+    $(".submit").on('click touchend', function(e){
         e.preventDefault();
         var myDate = new Date();
-//        location.href="third_step.php?from=index&timestamp=" + myDate.getTime();
+        location.href="third_step.php?from=index&timestamp=" + myDate.getTime();
     });
 
 </script>
