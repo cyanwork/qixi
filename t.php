@@ -44,11 +44,11 @@
             left: 50px;
             line-height: 60px;
             font-size: 50px;
-            color: #757172;
+            color: #000000;
         }
         form .subtitle{
             position: absolute;
-            top: 150px;
+            top: 170px;
             left: 50px;
             line-height: 60px;
             font-size: 50px;
@@ -65,6 +65,10 @@
             top: 1000px;
         }
 
+        form .shen{
+            color: crimson;
+        }
+
     </style>
 </head>
 <body>
@@ -74,8 +78,11 @@
 
     <form action="third_step.php?from=index&timestamp=2439995105204" method="post">
         <span class="form_title">登记信息进行抽奖</span><br>
+
         <div class="subtitle">
-            本活动仅限<br>&nbsp;&nbsp;&nbsp;&nbsp;广东省&nbsp;&nbsp;&nbsp;&nbsp;广西省<br>&nbsp;&nbsp;&nbsp;&nbsp;福建省&nbsp;&nbsp;&nbsp;&nbsp;海南省<br>内的网友参加
+            本活动仅限<br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="shen">广东省&nbsp;&nbsp;&nbsp;&nbsp;广西省<br>&nbsp;&nbsp;&nbsp;&nbsp;福建省&nbsp;&nbsp;&nbsp;&nbsp;海南省<br></span>
+            内的网友参加
         </div>
 
 
