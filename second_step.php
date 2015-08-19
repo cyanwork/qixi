@@ -94,8 +94,8 @@
             margin-top: 5px;
         }
         form .item{
-            line-height: 50px;
-            height: 50px;
+            line-height: 70px;
+            height: 70px;
         }
         form .form_input{
             width: 300px;
