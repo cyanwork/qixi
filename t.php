@@ -118,6 +118,8 @@
             position: absolute;
             top: 250px;
             left: 250px;
+            width: 304px;
+            height: 51px;
             background: url("images/submit_btn.png") no-repeat; text-align: center;border: 0;border-radius: 4px;
         }
     </style>
