@@ -116,7 +116,7 @@
 
         form .submit{
             position: absolute;
-            top: 800px;
+            top: 200px;
             display: block; width:400px; height: 200px; background: url("images/submit_btn.png") no-repeat; text-align: center;border: 0;border-radius: 4px;
         }
     </style>
