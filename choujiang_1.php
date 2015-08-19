@@ -36,15 +36,12 @@
             -webkit-transition: all 0.4s;
             transition: all 0.4s;
         }
-
         .button{
             position:absolute;
-            width: 50%;
-            height: 50px;
+            width: 30%;
+            height: 150px;
             background: peachpuff;
-            margin-left: auto;
-            margin-right: auto;
-            bottom: 10px;
+            bottom: 30px;
         }
 
     </style>
@@ -52,10 +49,8 @@
 <body>
 
 <div class="start main-stage">
-    <div class="button">
-
-    </div>
-    </div>
+    <div class="button"></div>
+</div>
 <script type="application/javascript">
 
     $(".button").on('click touchend', function(e){
