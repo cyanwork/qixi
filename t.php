@@ -34,7 +34,7 @@
             height: 90%;
             position: absolute;
             top: 100px;
-            left: 120px;
+            left: 100px;
             background: url("images/step2_form.png") no-repeat;
         }
 
