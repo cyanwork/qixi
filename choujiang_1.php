@@ -41,20 +41,16 @@
 </head>
 <body>
 
-<img class="start main-stage" alt="Planets" usemap ="#planetmap" />
-<map name="planetmap">
-    <area shape="rect" coords="0,0,110,260" href="www.baidu.com" alt="Sun" />
-    <area shape="circle" coords="129,161,10" href="www.36kr.com" alt="Mercury" />
-    <area shape="circle" coords="180,139,14" href="www.qq.com" alt="Venus" />
-</map>
+<img class="start main-stage">
+
     </img>
 <script type="application/javascript">
 
-//    $(".start").on('click touchend', function(e){
-//        e.preventDefault();
-//        var myDate = new Date();
-//        location.href="choujiang_2.php?from=index&timestamp=" + myDate.getTime();
-//    });
+    $(".start").on('click touchend', function(e){
+        e.preventDefault();
+        var myDate = new Date();
+        location.href="choujiang_2.php?from=index&timestamp=" + myDate.getTime();
+    });
 
 </script>
 </body>
