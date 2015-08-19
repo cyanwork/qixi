@@ -80,7 +80,19 @@
             line-height: 50px;
 
         }
-        form .form_input{
+        form .form_input1{
+            position: absolute;
+            left: 100px;
+            width: 400px;
+            line-height: 70px;
+            height: 70px;
+            background: url("images/form_input.png") no-repeat;
+        }
+
+        form .form_input2{
+            position: absolute;
+            left: 100px;
+            top: 100px;
             width: 400px;
             line-height: 70px;
             height: 70px;
@@ -89,7 +101,7 @@
 
         form .form_text1{
             position: absolute;
-            top: 10;
+            top: 20px;
         }
 
         form .shen{
@@ -123,10 +135,10 @@
 
             <div class="input_area">
                 <div>
-                    <span class="form_text1">姓名</span>&nbsp;&nbsp;<input class="form_input" type="text" name="name"/>
+                    <span class="form_text1">姓名</span>&nbsp;&nbsp;<input class="form_input1" type="text" name="name"/>
                 </div>
                 <div>
-                    <span class="form_text2">电话</span>&nbsp;&nbsp;<input class="form_input" type="number" name="phone"/>
+                    <span class="form_text2">电话</span>&nbsp;&nbsp;<input class="form_input2" type="number" name="phone"/>
                 </div>
                 <input type="submit" src="images/form_input.png" value="" class="submit"/><br>
             </div>
