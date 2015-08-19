@@ -42,9 +42,9 @@
 </head>
 <body>
 
-<!--<div class="start main-stage">-->
-<!--    <div class="button"></div>-->
-<!--</div>-->
+<div class="start main-stage">
+    <div class="button"></div>
+</div>
 <script type="application/javascript">
 
     $("body").on('click touchend', function(e){
@@ -62,7 +62,17 @@
     $name = $_POST['name'];
     $phone = $_POST['phone'];
 
-    echo "<br>city:".$city;
-    echo "<br>name:".$name;
-    echo "<br>phone:".$phone;
+    $con = mysql_connect("rdsp1e2zvi5og2cqgbqmw.mysql.rds.aliyuncs.com","rds_root","12345678");
+    if (!$con)
+    {
+        die('Could not connect: ' . mysql_error());
+    }
+
+    mysql_select_db("qixi", $con);
+
+    mysql_query("INSERT INTO users ('city', 'name', 'phone')
+    VALUES ($city, $name, $phone)");
+
+    mysql_close($con);
+
 ?>

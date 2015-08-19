@@ -96,7 +96,7 @@
 <div class="start main-stage">
     <div class="button"></div>
 
-    <form action="server/qixi.php" method="post">
+    <form action="third_step.php" method="post">
         <span class="form_title">登记信息进行抽奖</span><br>
         <div class="form_line" ><br>
         <span class="form_text">本活动仅限广东省、广西省、福建省、海南省内的网友参加</span>
@@ -116,11 +116,11 @@
 </div>
 <script type="application/javascript">
 
-    $(".submit").on('click touchend', function(e){
-        e.preventDefault();
-        var myDate = new Date();
-        location.href="third_step.php?from=index&timestamp=" + myDate.getTime();
-    });
+//    $(".submit").on('click touchend', function(e){
+//        e.preventDefault();
+//        var myDate = new Date();
+//        location.href="third_step.php?from=index&timestamp=" + myDate.getTime();
+//    });
 
 </script>
 </body>
