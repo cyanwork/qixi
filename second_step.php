@@ -97,6 +97,7 @@
             height: 50px;
         }
         form .form_input{
+            width: 300px;
             line-height: 70px;
             height: 70px;
         }
