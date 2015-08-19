@@ -5,8 +5,8 @@
 </head>
 <body>
     <form action="server/qixi.php" method="post">
-        <input type="text" name="city"/><br>
-        <input type="number" name="phone"/><br>
+        城市：<input type="text" name="city"/><br>
+        手机号码：<input type="number" name="phone"/><br>
         <input type="submit" value="开始抽奖"/><br>
     </form>
 </body>

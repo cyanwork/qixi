@@ -12,6 +12,6 @@ $phone = $_POST['phone'];
 
 
 
-echo "city:".$_POST['city']."<br>";
-echo "phone:".$_POST['phone'];
-
+echo "<br>city:".$_POST['city']."<br>";
+echo "<br>phone:".$_POST['phone'];
+echo "<br>恭喜你，中奖啦！！";
