@@ -54,9 +54,8 @@ require_once('header.php');
     $(".button").on('click touchend', function(e){
         e.preventDefault();
 
-
-        var myDate = new Date();
-        location.href="server/qixi.php?from=index&timestamp=" + myDate.getTime();
+        var phone = $(".phone").html();
+        location.href="server/qixi.php?phone=" + phone;
     });
 
 </script>
@@ -67,6 +66,9 @@ require_once('header.php');
     $city = $_POST['sf'];
     $name = $_POST['name'];
     $phone = $_POST['phone'];
+
+
+echo "<div class='phone' hidden='hidden'>$phone</div>";
 
     $name_code = urlencode($name);
 

@@ -6,4 +6,4 @@
  * Time: 10:27
  */
 
-echo "OK";
+echo "OK".$_GET['phone'];

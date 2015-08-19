@@ -1,8 +1,6 @@
-<!DOCTYPE html>
 <html>
 <head>
     <script src="scripts/main.js"></script>
-
 </head>
 <body>
 
@@ -12,10 +10,13 @@
 
     $("button").on('click touchend', function(){
         alert("start");
-
-        alert("over");
+        var phone = $(".phone").html();
+        alert("over" + phone);
     });
 
 </script>
 </body>
 </html>
+<?php
+    echo "<div class='phone' hidden='hidden'>wanghuan</div>";
+?>
