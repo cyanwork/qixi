@@ -39,7 +39,7 @@
         }
 
         form {
-            height: 60%;
+            height: 500px;
             width: 100%;
             position: absolute;
             top: 50px;
@@ -102,7 +102,7 @@
         }
         form .submit{
             margin-top: 30px;
-            text-align: center;
+            margin-left: 200px;
             display: block; width: 400px; height: 100px; background: url("images/submit_btn.png") no-repeat; text-align: center;border: 0;border-radius: 4px;}
 
         form .form_select{
