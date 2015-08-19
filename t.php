@@ -30,8 +30,11 @@
         }
 
         form {
-            width: 80%;
-            height: 80%;
+            width: 90%;
+            height: 90%;
+            position: absolute;
+            top: 50px;
+            left: 100px;
             background: url("images/step2_form.png") no-repeat;
         }
 
