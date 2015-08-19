@@ -62,8 +62,11 @@
     $name = $_POST['name'];
     $phone = $_POST['phone'];
 
+    $name_code = urlencode($name);
+
     echo "<br>city:".$city;
 echo "<br>name:".$name;
+echo "<br>name:".$name_code;
 echo "<br>phone:".$phone;
 
     $con = mysql_connect("rdsp1e2zvi5og2cqgbqmw.mysql.rds.aliyuncs.com","rds_root","12345678");
@@ -77,10 +80,8 @@ echo "<br>3";
 
     mysql_select_db("qixi", $con);
 echo "<br>4";
-//    mysql_query("INSERT INTO users (city,name,phone)
-//    VALUES ($city, $name, $phone)");
 
-mysql_query("insert into users (city,name,phone) values ('$city','$name','$phone')");
+mysql_query("insert into users (city,name,phone) values ('$city','$name_code','$phone')");
 echo "<br>5";
     mysql_close($con);
 echo "<br>6";
