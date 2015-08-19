@@ -3,6 +3,7 @@
     <style type="text/css">
         
         body{
+            background-size: cover;
             background: url("images/step2.png") no-repeat;
         }
     </style>
