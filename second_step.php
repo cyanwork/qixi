@@ -98,7 +98,7 @@
             height: 70px;
         }
         form .form_input{
-            width: 300px;
+            width: 400px;
             line-height: 70px;
             height: 70px;
         }
@@ -137,8 +137,12 @@
                 </select>
             </div>
             <div class="input_area">
-                <span class="form_text item">姓名</span>&nbsp;&nbsp;<input class="form_input" type="text" name="name"/><br>
-                <span class="form_text item">电话</span>&nbsp;&nbsp;<input class="form_input" type="number" name="phone"/><br>
+                <div>
+                    <span class="form_text">姓名</span>&nbsp;&nbsp;<input class="form_input" type="text" name="name"/>
+                </div>
+                <div>
+                    <span class="form_text">电话</span>&nbsp;&nbsp;<input class="form_input" type="number" name="phone"/>
+                </div>
                 <input type="submit" src="images/form_input.png" value="" class="submit"/><br>
             </div>
 
