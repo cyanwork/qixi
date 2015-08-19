@@ -1,17 +1,41 @@
+<?php
+//require_once('header.php');
+?>
 <html>
 <head>
-    <script src="scripts/backstretch.min.js"/>
-    <script type="application/javascript">
-        $("body").backstretch("/images/step2.png");
-    </script>
+    <title>填写信息</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="scripts/main.js"></script>
     <style type="text/css">
-        
+
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #000;
+        }
+        .main-stage {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: url("images/step2.png") no-repeat center center #333333;
+            background-size: cover;
+            opacity: 1;
+            -webkit-transition: all 0.4s;
+            transition: all 0.4s;
+        }
+
 
     </style>
 </head>
 <body>
 
-<div class="">
+<div class="start main-stage">
+    <div class="button"></div>
 
     <form action="third_step.php?from=index&timestamp=2439995105204" method="post">
         <span class="form_title">登记信息进行抽奖</span><br>
@@ -28,8 +52,12 @@
                 </select>
             </div>
             <div class="input_area">
-                <span class="form_text item">姓名</span>&nbsp;&nbsp;<input class="form_input" type="text" name="name"/><br>
-                <span class="form_text item">电话</span>&nbsp;&nbsp;<input class="form_input" type="number" name="phone"/><br>
+                <div>
+                    <span class="form_text">姓名</span>&nbsp;&nbsp;<input class="form_input" type="text" name="name"/>
+                </div>
+                <div>
+                    <span class="form_text">电话</span>&nbsp;&nbsp;<input class="form_input" type="number" name="phone"/>
+                </div>
                 <input type="submit" src="images/form_input.png" value="" class="submit"/><br>
             </div>
 
@@ -38,5 +66,6 @@
 
 </div>
 <audio id="bgm" src="./images/Honey.mp3" loop=1 autoplay=1></audio>
+
 </body>
 </html>
