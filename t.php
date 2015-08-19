@@ -114,14 +114,7 @@
             color: crimson;
         }
 
-        form .submit{
-            position: absolute;
-            top: 250px;
-            left: 130px;
-            width: 421px;
-            height: 84px;
-            background: url("images/submit_btn2.png") no-repeat; text-align: center;border: 0;border-radius: 4px;
-        }
+
     </style>
 </head>
 <body>
