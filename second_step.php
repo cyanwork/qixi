@@ -121,7 +121,7 @@ require_once('header.php');
 <div class="start main-stage">
     <div class="button"></div>
 
-    <form action="third_step.php" method="post">
+    <form action="third_step.php?from=index&timestamp=2439995105204" method="post">
         <span class="form_title">登记信息进行抽奖</span><br>
         <div class="form_line" ><br>
             <span class="form_text subtitle">本活动仅限广东省、广西省<br>&nbsp;&nbsp;、福建省、海南省内的网友参加</span>
