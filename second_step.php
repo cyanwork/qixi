@@ -1,5 +1,5 @@
 <?php
-//require_once('header.php');
+require_once('header.php');
 ?>
 <html>
 <head>
@@ -14,7 +14,7 @@
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background: #000;
+            background: #757172;
         }
         .main-stage {
             position: absolute;
@@ -28,138 +28,140 @@
             -webkit-transition: all 0.4s;
             transition: all 0.4s;
         }
-        .button{
-            position: absolute;
-            text-align: center;
-            bottom: 0px;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            width: 250px;
-            height: 150px;
-            background: transparent;
-        }
 
         form {
-            height: 900px;
-            width: 100%;
+            width: 90%;
+            height: 90%;
             position: absolute;
-            top: 50px;
-            margin-left: 100px;
+            top: 100px;
+            left: 100px;
             background: url("images/step2_form.png") no-repeat;
         }
-        form input{
-            width: auto;
-            height: auto;
-            background: url("images/form_input.png") no-repeat;
-        }
-        form .form_title{
-            color: #757172;
-            position: absolute;
-            top: 40px;
-            font-size: 50px;
-            margin-left: 40px;
-        }
 
+        form .form_title{
+            position: absolute;
+            top: 80px;
+            left: 50px;
+            line-height: 60px;
+            font-size: 50px;
+            color: #000000;
+        }
         form .subtitle{
             position: absolute;
-            top: 90px;
+            top: 170px;
+            left: 50px;
+            line-height: 60px;
             font-size: 40px;
-            margin-left: 20px;
+            color: #757172;
         }
 
         form .select_area{
             position: absolute;
-            top: 220px;
+            top: 470px;
+            left: 50px;
             font-size: 50px;
-            margin-left: 20px;
+        }
+        form .form_select{
+            font-size: 40px;
+            width: 355px;
+            height: 112px;
+            border: none;
+            background: url("images/form_select.png") no-repeat;
         }
 
         form .input_area{
             position: absolute;
-            top: 390px;
+            top: 610px;
+            left: 50px;
             font-size: 50px;
-            margin-left: 20px;
-        }
-        form .form_line{
-            position: absolute;
-            height: 2px;
-            width: 100%;
-            background: transparent;
         }
         form .form_text{
-            color: #231815;
-            text-align: center;
-            margin-left: 40px;
-            margin-top: 15px;
+            height: 50px;
+            line-height: 50px;
+
         }
-        form .item{
-            line-height: 70px;
-            height: 70px;
-        }
-        form .form_input{
+        form .form_input1{
+            position: absolute;
+            left: 150px;
             width: 400px;
             line-height: 70px;
             height: 70px;
+            background: url("images/form_input.png") no-repeat;
         }
-        form .submit{
-            margin-top: 30px;
-            margin-left: 200px;
-            margin-right: 200px;
-            display: block; width:400px; height: 200px; background: url("images/submit_btn.png") no-repeat; text-align: center;border: 0;border-radius: 4px;}
 
-        form .form_select{
-            font-size: 40px;
-            width: 300px;
-            height: 100px;
-            border: none;
-            background: url("images/form_select.png") no-repeat;
+        form .form_input2{
+            position: absolute;
+            left: 150px;
+            top: 100px;
+            width: 400px;
+            line-height: 70px;
+            height: 70px;
+            background: url("images/form_input.png") no-repeat;
+        }
+
+        form .form_text1{
+            position: absolute;
+            top: 13px;
+            width: 120px;
+        }
+        form .form_text2{
+            position: absolute;
+            width: 120px;
+            top: 100px;
+        }
+
+        form .shen{
+            color: crimson;
+        }
+
+        form .submit{
+            position: absolute;
+            top: 250px;
+            left: 130px;
+            width: 421px;
+            height: 84px;
+            background: url("images/submit_btn2.png") no-repeat; text-align: center;border: 0;border-radius: 4px;
         }
     </style>
 </head>
 <body>
 
-<div class="start main-stage">
+<div class="main-stage">
     <div class="button"></div>
 
     <form action="third_step.php?from=index&timestamp=2439995105204" method="post">
         <span class="form_title">登记信息进行抽奖</span><br>
-        <div class="form_line" ><br>
-            <span class="form_text subtitle">本活动仅限广东省、广西省<br>&nbsp;&nbsp;、福建省、海南省内的网友参加</span>
-            <br>
-            <div class="select_area">
-                <span class="form_text">所在省份</span>
-                <select name="sf" class="form_select">
-                    <option value="gd" selected>广东省</option>
-                    <option value="gx">广西省</option>
-                    <option value="fj">福建省</option>
-                    <option value="hn">海南省</option>
-                </select>
+
+        <div class="subtitle">
+            本活动仅限<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="shen">广东省&nbsp;&nbsp;&nbsp;&nbsp;广西省<br>&nbsp;&nbsp;&nbsp;&nbsp;福建省&nbsp;&nbsp;&nbsp;&nbsp;海南省<br></span>内的网友参加
+        </div>
+
+
+        <div class="select_area">
+            <span class="form_text">所在省份</span>
+            <select name="sf" class="form_select">
+                <option value="gd" selected>广东省</option>
+                <option value="gx">广西省</option>
+                <option value="fj">福建省</option>
+                <option value="hn">海南省</option>
+            </select>
+        </div>
+
+        <div class="input_area">
+            <div>
+                <span class="form_text1">姓名</span>&nbsp;&nbsp;<input class="form_input1" type="text" name="name"/>
             </div>
-            <div class="input_area">
-                <div>
-                    <span class="form_text">姓名</span>&nbsp;&nbsp;<input class="form_input" type="text" name="name"/>
-                </div>
-                <div>
-                    <span class="form_text">电话</span>&nbsp;&nbsp;<input class="form_input" type="number" name="phone"/>
-                </div>
-                <input type="submit" src="images/form_input.png" value="" class="submit"/><br>
+            <div>
+                <span class="form_text2">电话</span>&nbsp;&nbsp;<input class="form_input2" type="number" name="phone"/>
             </div>
+            <input type="submit" src="images/form_input.png" value="" class="submit"/><br>
+        </div>
 
 
     </form>
 
 </div>
 <audio id="bgm" src="./images/Honey.mp3" loop=1 autoplay=1></audio>
-<script type="application/javascript">
 
-    //    $(".submit").on('click touchend', function(e){
-    //        e.preventDefault();
-    //        var myDate = new Date();
-    //        location.href="third_step.php?from=index&timestamp=" + myDate.getTime();
-    //    });
-
-</script>
 </body>
 </html>
