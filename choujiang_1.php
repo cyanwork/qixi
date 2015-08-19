@@ -61,7 +61,8 @@
     $(".button").on('click touchend', function(e){
         e.preventDefault();
         var myDate = new Date();
-        location.href="choujiang_2.php?from=index&timestamp=" + myDate.getTime();
+//        location.href="choujiang_2.php?from=index&timestamp=" + myDate.getTime();
+        location.href="test.php";
     });
 
 </script>
