@@ -37,11 +37,16 @@
             transition: all 0.4s;
         }
         .button{
-            position:absolute;
-            width: 30%;
-            height: 150px;
-            background: peachpuff;
-            bottom: 30px;
+            position: absolute;
+            text-align: center;
+            top: 90%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            width: 150px;
+            height: 100px;
+            background: saddlebrown;
         }
 
     </style>
