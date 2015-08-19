@@ -38,12 +38,13 @@
         }
 
         .button{
+            position:absolute;
             width: 50%;
             height: 50px;
             background: peachpuff;
-            margin-bottom: 20px;
             margin-left: auto;
             margin-right: auto;
+            bottom: 10px;
         }
 
     </style>
