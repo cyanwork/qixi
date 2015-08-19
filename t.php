@@ -87,6 +87,11 @@
             background: url("images/form_input.png") no-repeat;
         }
 
+        form .form_text1{
+            position: absolute;
+            top: 10;
+        }
+
         form .shen{
             color: crimson;
         }
@@ -118,10 +123,10 @@
 
             <div class="input_area">
                 <div>
-                    <span class="form_text">姓名</span>&nbsp;&nbsp;<input class="form_input" type="text" name="name"/>
+                    <span class="form_text1">姓名</span>&nbsp;&nbsp;<input class="form_input" type="text" name="name"/>
                 </div>
                 <div>
-                    <span class="form_text">电话</span>&nbsp;&nbsp;<input class="form_input" type="number" name="phone"/>
+                    <span class="form_text2">电话</span>&nbsp;&nbsp;<input class="form_input" type="number" name="phone"/>
                 </div>
                 <input type="submit" src="images/form_input.png" value="" class="submit"/><br>
             </div>
