@@ -76,6 +76,8 @@
             font-size: 50px;
         }
         form .form_input{
+            height: auto;
+            width: auto;
             background: url("images/form_input.png") no-repeat;
         }
 
