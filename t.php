@@ -76,8 +76,8 @@
             font-size: 50px;
         }
         form .form_text{
-            height: 120px;
-            line-height: 120px;
+            height: 50px;
+            line-height: 50px;
 
         }
         form .form_input{
