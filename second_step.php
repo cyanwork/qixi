@@ -39,7 +39,7 @@
         }
 
         form {
-            height: 500px;
+            height: 700px;
             width: 100%;
             position: absolute;
             top: 50px;
