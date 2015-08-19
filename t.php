@@ -55,6 +55,16 @@
             color: #757172;
         }
 
+        form .select_area{
+            position: absolute;
+            top: 10000px;;
+        }
+
+        form .input_area{
+            position: absolute;
+            top: 1000px;
+        }
+
     </style>
 </head>
 <body>
@@ -65,20 +75,20 @@
     <form action="third_step.php?from=index&timestamp=2439995105204" method="post">
         <span class="form_title">登记信息进行抽奖</span><br>
         <div class="subtitle">
-            本活动仅限广东省、广西省<br>&nbsp;&nbsp;、福建省、海南省内的网友参加
+            本活动仅限<br>&nbsp;&nbsp;&nbsp;&nbsp;广东省&nbsp;&nbsp;&nbsp;&nbsp;广西省<br>&nbsp;&nbsp;&nbsp;&nbsp;福建省&nbsp;&nbsp;&nbsp;&nbsp;海南省<br>内的网友参加
         </div>
-        <div class="form_line" ><br>
-            <
-            <br>
-            <div class="select_area">
-                <span class="form_text">所在省份</span>
-                <select name="sf" class="form_select">
-                    <option value="gd" selected>广东省</option>
-                    <option value="gx">广西省</option>
-                    <option value="fj">福建省</option>
-                    <option value="hn">海南省</option>
-                </select>
-            </div>
+
+
+        <div class="select_area">
+            <span class="form_text">所在省份</span>
+            <select name="sf" class="form_select">
+                <option value="gd" selected>广东省</option>
+                <option value="gx">广西省</option>
+                <option value="fj">福建省</option>
+                <option value="hn">海南省</option>
+            </select>
+        </div>
+
             <div class="input_area">
                 <div>
                     <span class="form_text">姓名</span>&nbsp;&nbsp;<input class="form_input" type="text" name="name"/>
