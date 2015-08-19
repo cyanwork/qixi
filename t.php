@@ -75,6 +75,10 @@
             left: 50px;
             font-size: 50px;
         }
+        form .form_text{
+            height: 70px;
+            line-height: 70px;
+        }
         form .form_input{
             width: 400px;
             line-height: 70px;
