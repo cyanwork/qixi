@@ -101,7 +101,7 @@
 
         form .form_text1{
             position: absolute;
-            top: 15px;
+            top: 13px;
             width: 120px;
         }
         form .form_text2{
@@ -114,6 +114,11 @@
             color: crimson;
         }
 
+        form .submit{
+            position: absolute;
+            top: 800px;
+            display: block; width:400px; height: 200px; background: url("images/submit_btn.png") no-repeat; text-align: center;border: 0;border-radius: 4px;
+        }
     </style>
 </head>
 <body>
