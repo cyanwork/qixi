@@ -105,7 +105,8 @@
         form .form_select{
             font-size: 40px;
             width: 300px;
-            height: 200px;
+            height: 100px;
+            border: none;
             background: url("images/form_select.png") no-repeat;
         }
     </style>
