@@ -38,6 +38,14 @@
             background: url("images/step2_form.png") no-repeat;
         }
 
+        form .form_title{
+            position: absolute;
+            top: 80px;
+            left: 50px;
+            line-height: 60px;
+            font-size: 50px;
+            color: #757172;
+        }
 
     </style>
 </head>
