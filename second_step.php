@@ -1,3 +1,6 @@
+<?php
+require_once('header.php');
+?>
 <html>
 <head>
     <title>填写信息</title>

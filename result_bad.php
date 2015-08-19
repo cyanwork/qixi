@@ -1,3 +1,6 @@
+<?php
+require_once('header.php');
+?>
 <html>
 <head>
     <title>抽奖结果</title>
@@ -50,7 +53,7 @@
     $(".button").on('click touchend', function(e){
         e.preventDefault();
         var myDate = new Date();
-        location.href="choujiang_2.php?from=index&timestamp=" + myDate.getTime();
+//        location.href="choujiang_2.php?from=index&timestamp=" + myDate.getTime();
     });
 
 </script>
