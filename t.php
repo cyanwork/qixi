@@ -78,8 +78,7 @@
         form .form_text{
             height: 70px;
             line-height: 70px;
-            margin: 10px;
-            vertical-align: middle;
+            margin-top: 50px;
         }
         form .form_input{
             width: 400px;
