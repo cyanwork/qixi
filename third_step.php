@@ -52,6 +52,8 @@ require_once('header.php');
 
     $(".button").on('click touchend', function(e){
         e.preventDefault();
+
+
         var myDate = new Date();
         location.href="result_bad.php?from=index&timestamp=" + myDate.getTime();
     });
@@ -70,7 +72,7 @@ require_once('header.php');
 //    echo "<br>city:".$city;
 //echo "<br>name:".$name;
 //echo "<br>name:".$name_code;
-//echo "<br>phone:".$phone;
+//echo "<br>phone:".$phone; $.get(url,data,callback,type)
 
     $con = mysql_connect("rdsp1e2zvi5og2cqgbqmw.mysql.rds.aliyuncs.com","rds_root","12345678");
 //echo "<br>1";
