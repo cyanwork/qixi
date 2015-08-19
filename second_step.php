@@ -62,7 +62,7 @@
         form .subtitle{
             position: absolute;
             top: 70px;
-            font-size: 50px;
+            font-size: 40px;
             margin-left: 20px;
         }
 
@@ -87,7 +87,6 @@
         }
         form .form_text{
             color: #231815;
-            font-size: 50px;
             margin-left: 20px;
             margin-top: 5px;
         }
