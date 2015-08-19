@@ -71,10 +71,12 @@
 
         form .input_area{
             position: absolute;
-            top: 570px;
+            top: 610px;
             left: 50px;
             font-size: 50px;
-
+        }
+        form input{
+            background: url("images/form_input.png") no-repeat;
         }
 
         form .shen{
