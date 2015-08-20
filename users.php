@@ -27,7 +27,7 @@ mysql_query("set names utf8;");
 //echo "<br>4";
 
 $result = mysql_query("select * from users;");
-var_dump($result);
+//var_dump($result);
 
 echo "<tr><td>省份</td><td>姓名</td><td>电话</td></tr>";
 while($row = mysql_fetch_object($result))
