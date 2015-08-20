@@ -3,7 +3,7 @@
 ?>
 <html>
 <head>
-    <title>七夕|你的爱有多热？- 准备抽奖</title>
+    <title>你的爱有多热？-雪佛兰七夕有礼</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script src="scripts/main.js"></script>
     <style type="text/css">
@@ -44,7 +44,9 @@
     </style>
 </head>
 <body>
-
+<div style='display:none;'>
+    <img src='images/icon.png' />
+</div>
 <div class="start main-stage">
     <div class="button"></div>
 </div>
