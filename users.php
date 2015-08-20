@@ -28,6 +28,7 @@ mysql_query("set names utf8;");
 
 $result = mysql_query("select * from users;");
 //var_dump($result);
+echo "<h1>录入用户</h1><hr>";
 echo "<table style='width: 100%'>";
 echo "<tr><td>序号</td><td>省份</td><td>姓名</td><td>电话</td></tr>";
 $index = 1;
