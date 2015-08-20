@@ -28,22 +28,23 @@ if(isset($phone)){
     {
         $i++;
     }
+    $time = time()*1000;
     if($i < 6){
         $rand = rand(1,1000);
 //        echo "rand:".$rand;
         if($rand == 9){
             mysql_query("insert into zhongjiang (zhong) values ('$phone')");
             mysql_close($con);
-            echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='../result_good.php?from=index&timestamp=2439995105204'</SCRIPT>";
+            echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='../result_good.php?from=index&timestamp=$time'</SCRIPT>";
         }else{
             mysql_close($con);
-            echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='../result_bad.php?from=index&timestamp=2439995105204'</SCRIPT>";
+            echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='../result_bad.php?from=index&timestamp=$time'</SCRIPT>";
         }
 
     }else{
         mysql_close($con);
 //        echo "<script>location.href='result_bad.php'";
-        echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='../result_bad.php?from=index&timestamp=2439995105204'</SCRIPT>";
+        echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='../result_bad.php?from=index&timestamp=$time'</SCRIPT>";
     }
 
 //echo "<br>5";
