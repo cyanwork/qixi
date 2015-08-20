@@ -56,8 +56,9 @@ while($row = mysql_fetch_object($result))
         $dianhua = $row->phone;
     }
     echo "<tr><td>$shengfen</td><td>$mingzi</td><td>$dianhua</td></tr>";
-    echo "</table>";
+
 }
+echo "</table>";
 //echo"<br>OVer";
 mysql_close($con);
 
