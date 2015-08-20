@@ -13,7 +13,7 @@ require_once('header.php');
             height: 100%;
             margin: 0;
             padding: 0;
-            overflow: hidden;
+            /*overflow: hidden;*/
             background: #757172;
         }
         .main-stage {
@@ -162,6 +162,18 @@ require_once('header.php');
 
 </div>
 <audio id="bgm" src="./images/Honey.mp3" loop=1 autoplay=1></audio>
+<script type="application/javascript">
 
+//    $(".submit").onclick(function () {
+//        alert();
+//    });
+
+//    $("body").on('click touchend', function(e){
+//        e.preventDefault();
+//        var myDate = new Date();
+//        location.href="second_step.php?from=index&timestamp=" + myDate.getTime();
+//    });
+
+</script>
 </body>
 </html>
