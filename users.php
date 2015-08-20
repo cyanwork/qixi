@@ -28,11 +28,11 @@ mysql_query("set names utf8;");
 
 $result = mysql_query("select * from users;");
 //var_dump($result);
-
+echo "<table>";
 echo "<tr><td>省份</td><td>姓名</td><td>电话</td></tr>";
 while($row = mysql_fetch_object($result))
 {
-    echo "while";
+//    echo "while";
     $sf = $row->city;
     $shengfen = '无';
     if(isset($sf) && $sf== 'gd'){
@@ -56,8 +56,9 @@ while($row = mysql_fetch_object($result))
         $dianhua = $row->phone;
     }
     echo "<tr><td>$shengfen</td><td>$mingzi</td><td>$dianhua</td></tr>";
+    echo "</table>";
 }
-echo"<br>OVer";
+//echo"<br>OVer";
 mysql_close($con);
 
 ?>
