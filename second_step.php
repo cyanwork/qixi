@@ -129,7 +129,7 @@ require_once('header.php');
 <div class="main-stage">
     <div class="button"></div>
 
-    <form action="third_step.php?from=index&timestamp=2439995105204" method="post">
+    <form action="third_step.php?from=index&timestamp=2439995105204" method="post" onsubmit="return form_sub()">
         <span class="form_title">登记信息进行抽奖</span><br>
 
         <div class="subtitle">
@@ -163,8 +163,26 @@ require_once('header.php');
 </div>
 <audio id="bgm" src="./images/Honey.mp3" loop=1 autoplay=1></audio>
 <script type="application/javascript">
-
-//    $(".submit").onclick(function () {
+    function form_sub()
+    {
+        var name = $(".form_input1").val();
+        var phone = $(".form_input2").val();
+        if(name == ""){
+            alert("姓名不能为空");
+            return false;
+        }
+        if(phone == ""){
+            alert("手机号不能为空");
+            return false;
+        }
+        return true;
+    }
+//        if(!test_username(document.form1.username.value))
+//        {
+//            alert("姓名格式不正确");
+//            return false;
+//        }
+    //    $(".submit").onclick(function () {
 //        alert();
 //    });
 
