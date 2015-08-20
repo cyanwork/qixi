@@ -3,7 +3,7 @@
 ?>
 <html>
 <head>
-    <title>准备抽奖</title>
+    <title>七夕|你的爱有多热？- 准备抽奖</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script src="scripts/main.js"></script>
     <style type="text/css">
