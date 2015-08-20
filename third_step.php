@@ -13,7 +13,7 @@ require_once('header.php');
             height: 100%;
             margin: 0;
             padding: 0;
-            overflow: hidden;
+            /*overflow: hidden;*/
             background: #000;
         }
         .main-stage {
