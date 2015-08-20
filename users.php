@@ -56,7 +56,7 @@ while($row = mysql_fetch_object($result))
     if(isset($row->phone)){
         $dianhua = $row->phone;
     }else{
-        continue;
+//        continue;
     }
     echo "<tr><td>$index</td><td>$shengfen</td><td>$mingzi</td><td>$dianhua</td></tr>";
     $index++;
