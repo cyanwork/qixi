@@ -27,12 +27,37 @@ mysql_query("set names utf8;");
 //echo "<br>4";
 
 $result = mysql_query("select * from users;");
+var_dump($result);
+
 echo "<tr><td>省份</td><td>姓名</td><td>电话</td></tr>";
 while($row = mysql_fetch_object($result))
 {
-    echo "<tr><td>$row[0]</td><td>$row[1]</td><td>$row[2]</td></tr>";
+    echo "while";
+    $sf = $row->city;
+    $shengfen = '无';
+    if(isset($sf) && $sf== 'gd'){
+        $shengfen = "广东省";
+    }
+    if(isset($sf) && $sf== 'hn'){
+        $shengfen = "海南省";
+    }
+    if(isset($sf) && $sf== 'gx'){
+        $shengfen = "广西省";
+    }
+    if(isset($sf) && $sf== 'fj'){
+        $shengfen = "福建省";
+    }
+    $mingzi = "无";
+    if(isset($row->name)){
+        $mingzi = $row->name;
+    }
+    $dianhua = "无";
+    if(isset($row->phone)){
+        $dianhua = $row->phone;
+    }
+    echo "<tr><td>$shengfen</td><td>$mingzi</td><td>$dianhua</td></tr>";
 }
-
+echo"<br>OVer";
 mysql_close($con);
 
 ?>
