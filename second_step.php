@@ -5,6 +5,7 @@ require_once('header.php');
 <head>
     <title>填写信息</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <script src="scripts/main.js"></script>
     <style type="text/css">
 
