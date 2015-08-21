@@ -5,6 +5,7 @@
  * Date: 15/8/19
  * Time: 10:27
  */
+$time = time()*1000;
 echo "<SCRIPT LANGUAGE=\"JavaScript\">location.href='../result_bad.php?from=index&timestamp=$time'</SCRIPT>";
 //$phone = $_GET['phone'];
 //
